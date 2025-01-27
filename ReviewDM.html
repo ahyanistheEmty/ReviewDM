@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReviewDM</title>
+    <link rel="stylesheet" href="ReviewDM.css">
+</head>
+<body>
+    <button id="menu-btn"> Assistants</button>
+    <div id="menu-list">
+        <a href="https://ahyanistheemty.github.io/Yodm-home/Yodm_home.html">Home</a>
+        <a href="https://ahyanistheemty.github.io/Summarydm/Summarydm/Summarydm.html">SummaryDM</a>
+        <a href="https://ahyanistheemty.github.io/Spelldm/Spelldm.html">SpellDM</a>
+        <a href="https://ahyanistheemty.github.io/ToneDM/tonedm.html">ToneDM</a>
+        <a href="https://ahyanistheemty.github.io/CodeDM/CodeDM.html">CodeDM</a>
+        <a href="https://ahyanistheemty.github.io/Cookdm/CookDM.html">CookDM</a>
+    </div>
+    <div class="container">
+        <textarea id="text-input" placeholder="Enter text here or drag and drop a text file..." class="text-box"></textarea>
+        <input type="file" id="file-input" accept=".txt,.js,.java,.py,.html,.css,.cpp,.c,.cs,.rb,.php,.go,.rs,.ts,.jsx,.tsx,.md,.xml,.json,.log,.csv,.ini,.conf,.yml,.yaml,.pl,.sh" hidden>
+        <button id="summarize-button" class="button">Find Review</button>
+
+        <div id="result-container" class="result-container"></div>
+        </div>
+    <script src="ReviewDM.js"></script>
+</body>
+</html>
